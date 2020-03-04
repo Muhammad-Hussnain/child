@@ -2,7 +2,7 @@ console.log("child");
 
 console.log("children committt");
 
-function myName (name = "default"){
+export function myName (name = "default"){
     console.log(name);
 }
 
